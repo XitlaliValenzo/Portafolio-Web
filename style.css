@@ -124,5 +124,23 @@ header::before {
     background-color:#eee;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	color: white;
+	
+}
+.carousel-control-prev, .carousel-control-next{
+	background-color: black;
+	width: 5vh;
+	height: 5vh;
+	border-radius: 50%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.carousel-control-prev span, .carousel-control-next span{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
 
   
