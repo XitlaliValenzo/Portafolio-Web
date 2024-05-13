@@ -1,21 +1,128 @@
-* {
+nav, header {
     color: white;
+}
+
+main {
+    color: black;
 }
 
 #navbarNav a{
     color:white;
 }
 
+.icono {
+    font-size: 2rem;
+    color: cornflowerblue;
+    background-color: none;
+}
+
+.btn {
+    background-color: #4D869C;
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #2C4E80;
+    border: none;
+    color: white;
+    
+}
+
+.card {
+	height: 100%;
+    border: none;
+    border-radius: 20px;
+}
+
+.img-proyecto{
+    height: 25vh;
+    border-radius: 20px 20px 0px 0px;
+}
+.card-body {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+}
+
+.card-text {
+	flex-grow: 1;
+}
+
+header::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5); 
+	pointer-events: none;
+    
+}
+
+.container {
+    position: relative; /* Asegura que el contenido se posicione correctamente */
+    z-index: 1; /* Coloca el contenido sobre el fondo */
+}
+
 header {
     padding-right: 0px !important;
     padding-left: 0px !important;
     height: 100vh;
+    position: relative; 
 
-    background-image: url('fondo.jpeg');
+    background-image: url('assets/fondo.jpeg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-attachment: fixed; /* Keep the image in place while scrolling */
-    filter: brightness(0.8); /* Adjust the brightness */
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
+
+#text-header {
+    position: relative;
+    z-index: 1; 
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    pointer-events: none; 
+    z-index: 0; 
+}
+
+.img-thumbail{
+    width: 40vh;
+    height: 40vh;
+    margin-top: 2.5rem;
+}
+
+#icono-footer{
+    font-size: 5rem;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.icono-contacto{
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+    /* arriba derecha abajo izquierda*/
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border-radius: 75%;
+
+}
+
+#proyectos{
+    background-color:#eee;
+}
+
+
   
