@@ -8,10 +8,10 @@ Fue desarrollado con HTML, CSS y JS, además del uso del framework Bootstrap uti
 
 - Capturas de pantalla
 
-![Sección Xitlali Valenzo](assets/xitlali.png)
-![Sección Habilidades](assets/habilidades.png)
-![Sección Proyectos](assets/proyectos.png)
-![Sección Testominios](assets/testimonios.png)
+![Sección Xitlali Valenzo](assets/xitlali.PNG)
+![Sección Habilidades](assets/habilidades.PNG)
+![Sección Proyectos](assets/proyectos.PNG)
+![Sección Testominios](assets/testimonios.PNG)
 ![Sección Contacto](assets/contacto.png)
 
 - Tecnologías
