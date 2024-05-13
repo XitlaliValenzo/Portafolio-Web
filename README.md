@@ -12,7 +12,7 @@ Fue desarrollado con HTML, CSS y JS, además del uso del framework Bootstrap uti
 ![Sección Habilidades](assets/habilidades.PNG)
 ![Sección Proyectos](assets/proyectos.PNG)
 ![Sección Testominios](assets/testimonios.PNG)
-![Sección Contacto](assets/contacto.png)
+![Sección Contacto](assets/contacto.PNG)
 
 - Tecnologías
 
