@@ -142,5 +142,9 @@ header::before {
 	height: 1.5rem;
 }
 
+#iconos a{
+    padding-top: 16px;
+}
+
 
   
